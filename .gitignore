@@ -1,0 +1,12 @@
+# Editor / OS
+.vscode/
+.DS_Store
+*.pem
+.env
+.env.*
+*.key
+
+# Leftover Vite cache from the earlier React scaffold
+.vite/
+node_modules/
+

@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meghavi Comferts</title>
+  <meta name="description"
+    content="Plan your dream wedding with Meghavi Comferts. Expert luxury wedding planners delivering bespoke design, guest experiences, global logistics, and seamless events." />
+  <link rel="preload" as="image" href="./assets/changes/WDC_BACKGROUND.png" fetchpriority="high" />
+      <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <!-- favicon removed with the old WDC asset; drop a new one in and re-add this link -->
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="home">
+  <header class="site-header" role="banner" aria-label="Top header">
+  <div class="site-header__brand" aria-hidden="false">
+    <a href="#top" aria-label="Home" style="display: inline-flex; align-items: center; gap: 0.85rem; text-decoration: none;">
+      <img src="./assets/changes/mc_logo.png" class="site-header__brand-logo"
+        alt="Meghavi Comferts logo" style="max-height: 46px; width: auto;" />
+      <span class="site-header__brand-title" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.2rem; font-weight: 700; letter-spacing: 0.16em; color: #1a1a1a; text-transform: uppercase;">Meghavi Comferts</span>
+    </a>
+  </div>
+
+  <button id="siteHeaderToggle" class="site-header__toggle" aria-expanded="false" aria-label="Open navigation menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav id="primaryNavigation" class="site-header__nav" role="navigation" aria-label="Primary navigation">
+    <a href="#top" data-scroll-link="top"  class="is-active">Home</a>
+    <a href="#wdc-section" data-scroll-link="wdc-section">Our Team</a>
+    <div class="nav-item nav-services">
+      <a href="#service-section" data-scroll-link="service-section" aria-haspopup="true" aria-expanded="false">Our Services</a>
+      <button class="nav-item__toggle" aria-label="Toggle services submenu"
+        aria-expanded="false">
+        &#9662;
+      </button>
+      <ul class="nav-submenu" role="menu" aria-label="Services submenu">
+        <li>
+          <a href="#service-section" data-scroll-link="service-section">
+            Wedding Planning and Project Management
+          </a>
+        </li>
+        <li><a href="#service-section" data-scroll-link="service-section">Design and Decor</a></li>
+        <li>
+          <a href="#service-section" data-scroll-link="service-section">
+            Entertainment and experiences
+          </a>
+        </li>
+        <li><a href="#venues-section" data-scroll-link="venues-section">Destinations</a></li>
+      </ul>
+    </div>
+    <a href="#venues-section" data-scroll-link="venues-section">Venues</a>
+    <a href="#design-section" data-scroll-link="design-section">Gallery</a>
+    <a href="#contact-section" data-scroll-link="contact-section">Contact Us</a>
+  </nav>
+</header>
+
+  <main>
+    <section class="hero" id="top" aria-label="Meghavi Comferts scene map">
+      <div class="hero__hint" aria-hidden="true">
+        <span class="hero__hint-desktop">Hover over the highlighted area</span>
+        <span class="hero__hint-mobile">Tap on the highlighted area</span>
+      </div>
+      <div class="hero__scene scene-screen" id="sceneScreen">
+        <div class="scene-stage" id="sceneStage">
+          <div class="scene-panorama" id="scenePanorama">
+            <img class="scene-panorama__bg" src="./assets/changes/WDC_BACKGROUND.png"
+              alt="Illustrated Meghavi Comferts streetscape" width="2200" height="1557"
+              fetchpriority="high" decoding="async" />
+          </div>
+
+          <!-- Foreground overlay -->
+          <!-- Foreground overlay -->
+          <div class="scene-foreground" id="sceneForeground">
+            <!-- WDC office hotspot + overlay -->
+            <a class="wdc-hotspot hero-link-hotspot" data-title="About Us" data-hotspot="wdc"
+              data-target="wdc-section" href="#wdc-section" aria-label="Jump to About Us section"></a>
+            <img class="scene-foreground__img--wdc"
+              data-hero-overlay-src="./assets/changes/OVERLAY/WDC_WDC.svg"
+              alt="WDC office overlay elements" decoding="async" />
+            <!-- WDC services hotspot + overlay -->
+            <a class="wdc-services-hotspot hero-link-hotspot" data-title="Our Services"
+              data-hotspot="services" data-target="service-section" href="#service-section"
+              aria-label="Jump to Our Services section"></a>
+            <img class="scene-foreground__img--wdc-services"
+              data-hero-overlay-src="./assets/changes/OVERLAY/WDC_SERVICES.svg"
+              alt="WDC services overlay elements" decoding="async" />
+
+            <!-- Contact hotspot + overlay -->
+            <a class="contact-hotspot hero-link-hotspot" data-title="Contact Us" data-hotspot="contact"
+              data-target="contact-section" href="#contact-section"
+              aria-label="Jump to Contact Us section"></a>
+            <img class="scene-foreground__img--contact"
+              data-hero-overlay-src="./assets/changes/OVERLAY/WDC_CONTACT.svg"
+              alt="Contact overlay elements" decoding="async" />
+
+            <!-- Airplane hotspot + overlay -->
+            <a class="airplane-hotspot hero-link-hotspot" data-title="Destinations"
+              data-hotspot="destinations" data-target="venues-section" href="#venues-section"
+              aria-label="Open Destinations section"></a>
+            <img class="scene-foreground__img--airplane"
+              data-hero-overlay-src="./assets/changes/OVERLAY/WDC_AIRPLANE.svg"
+              alt="Airplane overlay elements" decoding="async" />
+
+            <!-- Our Philosophy hotspot + overlay -->
+            <a class="atelier-hotspot hero-link-hotspot" data-title="Our Philosophy" data-hotspot="atelier"
+              data-target="atelier-section" href="#atelier-section"
+              aria-label="Jump to Our Philosophy content"></a>
+            <img class="scene-foreground__img--atelier"
+              data-hero-overlay-src="./assets/changes/OVERLAY/WDC_WEDDINGATELIER.svg"
+              alt="Wedding Atelier overlay elements" decoding="async" />
+
+            <!-- Gallery hotspot + overlay -->
+            <a class="gallery-hotspot hero-link-hotspot" data-title="Design Studio" data-hotspot="gallery"
+              data-target="design-section" href="#design-section"
+              aria-label="Jump to Design Studio section"></a>
+            <img class="scene-foreground__img--gallery"
+              data-hero-overlay-src="./assets/changes/OVERLAY/WDC_GALLERY.svg"
+              alt="Gallery overlay elements" decoding="async" />
+
+            <!-- Baraat parallax overlay -->
+            <img class="scene-foreground__img--baraat" src="./assets/changes/WDC_BARAAT.png"
+              alt="Baraat parade overlay elements" aria-hidden="true" width="2200" height="1557"
+              fetchpriority="low" decoding="async" />
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="content-section section-about" id="wdc-section" data-section>
+      <div class="section-inner section-about__inner">
+        <div class="section-about__copy" data-reveal>
+          <h2>About Meghavi Comferts</h2>
+          <p>
+            Meghavi Comferts was founded in <strong>1997</strong> with a vision to create extraordinary celebrations and turn wedding dreams into unforgettable experiences.
+          </p>
+          <p>
+            With a strong association with the <strong>Taj Group</strong>, the brand has built its expertise around refined hospitality, thoughtful planning, and exceptional event experiences.
+          </p>
+          <p>
+            Led by <strong>Pankaj Kapoor</strong>, Meghavi Comferts brings together <strong>experience, creativity, design, and meticulous execution</strong> to craft celebrations that feel personal, elegant, and truly memorable.
+          </p>
+          <p>
+            From intimate gatherings to grand weddings, every celebration is thoughtfully designed to transform your vision into an experience worth remembering.
+          </p>
+        </div>
+
+        <figure class="section-about__art" data-reveal>
+          <img src="./assets/oldassets/comfert.jpeg" alt="Meghavi Comferts showroom illustration"
+            loading="lazy" decoding="async" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="content-section section-wedding-atelier" id="atelier-section" data-section>
+      <div class="section-inner section-wedding-atelier__inner">
+        <div class="section-wedding-atelier__stage" data-reveal>
+          <figure class="section-wedding-atelier__image section-wedding-atelier__image--left">
+            <img src="./assets/changes/Atelier-1.png"
+              alt="Wedding Atelier concept installation with crystal chandeliers" loading="lazy"
+              decoding="async" />
+          </figure>
+
+          <article class="section-wedding-atelier__card">
+            <div class="section-wedding-atelier__card-top">
+              <h2>OUR PHILOSOPHY</h2>
+            </div>
+            <div class="section-wedding-atelier__card-body">
+              <p>
+                At <strong>Meghavi Comferts</strong>, every celebration begins with a vision &mdash; and evolves into an experience that feels truly extraordinary.
+              </p>
+              <p>
+                Built on a legacy of <strong>experience, creativity, and refined execution</strong>, we look beyond conventional wedding planning to create celebrations that reflect the individuality of every couple. Our approach brings together <strong>innovative concepts, thoughtful design, cultural richness, and contemporary aesthetics</strong> to create moments that are both timeless and distinctive.
+              </p>
+              <p>
+                From intimate celebrations to grand destination weddings, every detail is thoughtfully curated &mdash; from the first idea to the final execution. <strong>Meghavi Comferts is where imagination meets experience, and every wedding becomes a story of its own.</strong>
+              </p>
+            </div>
+            <div class="section-wedding-atelier__card-bottom" aria-hidden="true"></div>
+          </article>
+
+          <figure class="section-wedding-atelier__image section-wedding-atelier__image--right">
+            <img src="./assets/changes/Atelier-2.png" alt="Wedding Atelier floral dining concept"
+              loading="lazy" decoding="async" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-services" id="service-section" data-section>
+      <div class="section-inner section-services__inner" style="text-align: center">
+        <h2 class="section-services__title">Our Services</h2>
+        <h3 class="section-services__subtitle">
+          Meghavi Comferts is here to orchestrate your perfect celebration.
+        </h3>
+        <p>
+          We'll work with you to create a bespoke experience that harmonizes
+          every element of your wedding: Creative Design, Guest Hospitality,
+          Global Logistics, Entertainment, and Legacy Planning.
+        </p>
+      </div>
+      <div class="services-mobile-carousel" id="services-mobile-carousel">
+        <div class="section-services__item">
+          <div class="section-services__image service-image-animate">
+            <img src="./assets/changes/our_services/service_wedding_planning.jpg" alt="Wedding Planning and Project Management" loading="lazy"
+              decoding="async" />
+          </div>
+          <div class="section-services__content">
+            <h4 class="service-title-animate">
+              <span>Wedding</span> <span>Planning</span> <span>&</span>
+              <span>Project</span> <span>Management</span>
+            </h4>
+            <p>
+              A world-class wedding is made up of countless details, decisions, and moving parts. At <strong>Meghavi Comferts</strong>, we take care of the journey from concept to completion, so you can be fully present for your celebration.
+            </p>
+            <p>
+              From the initial consultation and venue visits to planning, coordination, vendor management, and final execution, our team manages every detail with precision and care.
+            </p>
+            <p>
+              We create a clear, structured roadmap around your vision and ensure every element comes together seamlessly &mdash; allowing you to experience your wedding as a celebration, not a project to manage.
+            </p>
+            <p><strong>You dream it. We plan it. We bring it to life.</strong></p>
+          </div>
+        </div>
+        <div class="section-services__ribbon">
+          <div class="section-services__ribbon-shine"></div>
+        </div>
+        <div class="section-services__item">
+          <div class="section-services__content">
+            <h4 class="service-title-animate">
+              <span>Design</span> <span>&</span> <span>Decor</span>
+            </h4>
+            <p><strong>We don't just decorate spaces. We build worlds.</strong></p>
+            <p>
+              If Project Management is the heartbeat of a wedding, Design is its soul. At Meghavi Comferts, we
+              believe your celebration should be a living, breathing reflection of your personality. We
+              don't trends; we set them. Our design philosophy is about creating "theatrical intimacy" -
+              grand enough to take your breath away, yet personal enough to feel like home.
+            </p>
+            <p>
+              From the first mood board to the final floral petal, we weave a visual narrative that stays
+              with
+              your guests long after the lights go down.
+            </p>
+          </div>
+          <div class="section-services__image service-image-animate">
+            <img src="./assets/changes/our_services/service_designdecor.jpg" alt="Design and Decor"
+              loading="lazy" decoding="async" />
+          </div>
+        </div>
+        <div class="section-services__ribbon">
+          <div class="section-services__ribbon-shine"></div>
+        </div>
+        <div class="section-services__item">
+          <div class="section-services__image service-image-animate">
+            <img src="./assets/changes/our_services/service_entertainment.jpg"
+              alt="Entertainment and Experiences" loading="lazy" decoding="async" />
+          </div>
+          <div class="section-services__content">
+            <h4 class="service-title-animate">
+              <span>Entertainment</span> <span>&</span> <span>Experiences</span>
+            </h4>
+            <p>
+              At <strong>Meghavi Comferts</strong>, entertainment is more than a performance &mdash; it is an integral part of the celebration. We curate exceptional artists, performers, and entertainers to create moments that energise the atmosphere and stay with your guests long after the celebration ends.
+            </p>
+            <p>
+              From live bands, renowned DJs, and classical ensembles to cultural performances, dancers, aerial artists, celebrity acts, and immersive experiences, every element is thoughtfully selected to complement the scale, style, and spirit of your celebration.
+            </p>
+            <p><strong>We curate the talent. You create the memories.</strong></p>
+            <ul class="entertainment-lineup">
+              <li><strong>Saxophone for the gala dinner</strong></li>
+              <li><strong>Qawwali setup</strong></li>
+              <li><strong>Langa setup</strong></li>
+              <li><strong>DJ party</strong></li>
+              <li><strong>Guitarist &amp; singer with band</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-dots" id="carousel-dots">
+        <span class="carousel-dot active"></span>
+        <span class="carousel-dot"></span>
+        <span class="carousel-dot"></span>
+      </div>
+    </section>
+    <section class="content-section section-venues" id="venues-section" data-section>
+      <div class="section-inner section-venues__inner">
+        <div class="section-venues__copy" data-reveal>
+          <p class="section-venues__eyebrow">Established 1997</p>
+          <h2>Our Venues</h2>
+          <p>
+            Associated with the Taj group since 1997, we stage celebrations across a
+            portfolio of palace and heritage properties.
+          </p>
+        </div>
+
+        <ul class="section-venues__list" data-reveal>
+          <li class="venue-card">
+            <span class="venue-card__index" aria-hidden="true">01</span>
+            <h3>Taj Lake Palace</h3>
+          </li>
+          <li class="venue-card">
+            <span class="venue-card__index" aria-hidden="true">02</span>
+            <h3>Taj Fateh Prakash</h3>
+          </li>
+          <li class="venue-card">
+            <span class="venue-card__index" aria-hidden="true">03</span>
+            <h3>Udai Bagh</h3>
+          </li>
+          <li class="venue-card">
+            <span class="venue-card__index" aria-hidden="true">04</span>
+            <h3>Taj Lalit Bagh</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-section section-design" id="design-section" data-section>
+      <div class="section-inner section-design__inner" style="text-align: center">
+        <div class="section-design__copy" data-reveal>
+          <h2>Design Studio</h2>
+          <p>
+            A quick look inside our floral, furniture, and environment builds,
+            where room scale, color, and styling are tested before they arrive
+            on site.
+          </p>
+        </div>
+
+        <div class="section-design__gallery" data-reveal>
+          <div class="section-design__carousel3d" id="designCarousel3d" aria-live="off"></div>
+          <div class="section-design__nav" aria-label="Design Studio carousel controls">
+            <button type="button" class="section-design__nav-btn section-design__nav-prev" id="designPrev"
+              aria-label="Previous Design Studio images">
+              &lsaquo;
+            </button>
+            <button type="button" class="section-design__nav-btn section-design__nav-next" id="designNext"
+              aria-label="Next Design Studio images">
+              &rsaquo;
+            </button>
+          </div>
+        </div>
+
+        <div class="design-mobile-carousel" id="design-mobile-carousel" data-reveal></div>
+
+        <div class="carousel-dots" id="design-carousel-dots" style="margin-top: -1rem;"></div>
+      </div>
+    </section>
+
+    <section class="section-contact" id="contact-section" data-section>
+      <div class="section-inner section-contact__inner">
+        <div class="section-contact__form" data-reveal>
+          <h2>Contact Us</h2>
+
+          <form class="contact-form" id="contact-form">
+            <label>
+              <span>Your E-mail</span>
+              <input type="email" name="email" id="whatsappEmail" placeholder="Your E-mail" autocomplete="email" required />
+            </label>
+
+            <label>
+              <span>Message subject</span>
+              <input type="text" name="subject" id="whatsappSubject" placeholder="Message subject" autocomplete="off" required />
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" id="whatsappMessage" rows="5" placeholder="Tell us about your requirements..." required></textarea>
+            </label>
+
+            <button type="submit">Send Enquiry on WhatsApp</button>
+            <p class="form-status" id="whatsappFormStatus" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="section-contact__details" data-reveal>
+          <div class="section-contact__map-wrapper" style="position: relative; margin-bottom: 1.2rem;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.423987158914!2d73.693582!3d24.6089752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e53619e137a5%3A0x409007f5f5afb76c!2sMeghavi%20Comferts!5e0!3m2!1sen!2sin!4v1780987678301!5m2!1sen!2sin"
+              width="300" height="200" style="border:0; width: 100%; height: 200px; border-radius: 1.25rem; display: block;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Meghavi Comferts Google Maps Location"></iframe>
+            <a href="https://maps.app.goo.gl/dwA6QQV8diu3qgzP6" target="_blank" rel="noreferrer noopener" class="map-overlay-badge" style="position: absolute; top: 12px; right: 12px; z-index: 5; background: rgba(255, 255, 255, 0.92); color: #1a1a1a; padding: 6px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); backdrop-filter: blur(4px);">Open in Maps &#8599;</a>
+          </div>
+
+          <div class="section-contact__detail-copy">
+            <p>
+              <strong>Meghavi Comferts</strong><br />
+              <a href="https://maps.app.goo.gl/dwA6QQV8diu3qgzP6" target="_blank" rel="noreferrer noopener" style="color: inherit; text-decoration: none;">
+                21, Main Rd, opposite Vaikuntha Sports Academy, Pulia, Pulla Bhuwana, Panchwati, Udaipur, Bhuvana, Rajasthan 313001
+              </a>
+            </p>
+            <p style="margin-top: 0.4rem;">
+              <a href="https://maps.app.goo.gl/dwA6QQV8diu3qgzP6" target="_blank" rel="noreferrer noopener" style="font-weight: 600; color: #a37217; text-decoration: underline;">
+                Open in Google Maps &rarr;
+              </a>
+            </p>
+            <p>
+              T.:<a href="tel:+918005912079">+91 80059 12079</a>
+            </p>
+            <p>E.:<a href="mailto:info@meghavicomferts.in">info@meghavicomferts.in</a></p>
+            <p>Job Enquiry: <a href="mailto:info@meghavicomferts.in">info@meghavicomferts.in</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <figure class="section-contact__art" data-reveal>
+        <img src="./assets/oldassets/grpahic_contact.jpeg" alt="Contact desk illustration" loading="lazy"
+          decoding="async" />
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+  <div class="site-footer__brand">
+    <div class="site-footer__logo-wrap" style="display: flex; align-items: center; gap: 1rem;">
+      <img class="site-footer__logo-image" src="./assets/changes/mc_logo.png"
+        alt="Meghavi Comferts logo" style="max-height: 65px; width: auto;" />
+      <span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.4rem; font-weight: 700; letter-spacing: 0.18em; color: #d4af37; text-transform: uppercase;">Meghavi Comferts</span>
+    </div>
+    <p>
+      Meghavi Comferts was conceived out of a desire to inspire
+      people to live out their fantasy by creating dream weddings.
+    </p>
+  </div>
+
+  <div class="site-footer__divider" aria-hidden="true"></div>
+
+  <div class="site-footer__columns">
+    <div>
+      <h3>Useful Links</h3>
+      <a href="#top">Home</a>
+      <a href="#wdc-section">Team</a>
+      <a href="#design-section">Gallery</a>
+      <a href="#contact-section">Contact Us</a>
+      <a href="#atelier-section">Our Philosophy</a>
+    </div>
+
+    <div>
+      <h3>Social Links</h3>
+      <a href="https://www.facebook.com/profile.php?id=100086118454884" target="_blank"
+        rel="noreferrer noopener">Facebook</a>
+      <a href="https://www.instagram.com/meghavicomferts/" target="_blank"
+        rel="noreferrer noopener">Instagram</a>
+    </div>
+
+    <div>
+      <h3>Main Links</h3>
+      <a href="#service-section">Wedding Planning</a>
+      <a href="#service-section">Guest Experience</a>
+      <a href="#design-section">Design Studio</a>
+      <a href="#venues-section">Cities &amp; Destinations</a>
+      <a href="#contact-section">Contact Us</a>
+    </div>
+  </div>
+  <div class="site-footer__copyright">
+    <span>&copy; 2026 Meghavi Comferts</span>
+  </div>
+</footer>
+
+<a href="#top" class="scroll-top" aria-label="Scroll to top" title="Back to top">
+  <span class="arrow" aria-hidden="true"></span>
+</a>
+
+<script src="./script.js?v=3"></script>
+</body>
+
+</html>
